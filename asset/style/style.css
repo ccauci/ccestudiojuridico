@@ -1,0 +1,20 @@
+/* body {
+    min-height: 100vh;
+    background-color: #d9afd9;
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  } */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+  
+}
+
+footer {
+    margin-top: auto;
+    position: fixed; /* position, botton y width se agregaron para que el fooder no quede tapado cuandpo se saco la barra de scroll*/
+    bottom: 0;
+    width: 100%;
+}
